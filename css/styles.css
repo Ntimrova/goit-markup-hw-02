@@ -1,0 +1,126 @@
+:root{
+    --accent-color:  #4D5AE5;
+}
+body {
+    font-family: 'Roboto';
+}
+
+.link{
+    text-decoration: none;
+}
+
+.list{
+    list-style-type: none;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;        
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/**------------ HEADER-------------- */
+
+.header-logo {
+color: #2E2F42;
+font-size: 18px;
+font-family: Raleway;
+font-weight: 800;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.header-logo-accent {
+color: var(--accent-color);
+}
+
+.header-menu-link {
+color: #2E2F42;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+  
+.header-menu-link:focus,
+.header-menu-link:hover{
+    color: var(--accent-color);
+}
+
+.header-socials-link{
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*?------------ BUTTONS SECTION-------------- */
+
+.element-button{
+    color: var(--accent-color);
+    background-color: #F4F4FD;
+    text-align: center;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.element-button:is(:hover,:focus){
+color: #FFF;
+background-color: #404BBF;
+}
+
+/*!------------ ADVANTAGES-------------- */
+
+.advantages-list {
+    background-color: #FFF;
+}
+
+.advantages-subtitle {
+color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.advantages-item-text {
+color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/*TODO------------ FOOTER-------------- */
+.footer{
+    background: #2E2F42; 
+}
+.footer-logo {
+    color: #F4F4FD;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+    
+.header-logo-accent {
+    color: var(--accent-color);
+}
+.footer-main-text{
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
