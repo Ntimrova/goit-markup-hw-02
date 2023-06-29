@@ -101,7 +101,7 @@ cursor: pointer;
 }
 .element-button:focus,
 .element-button:hover{
-    color: #404BBF;
+    background-color: #404BBF;
 }
 /**------------ ADVANTAGES -------------- */
 
@@ -146,7 +146,7 @@ text-transform: capitalize;
     text-transform: capitalize;
     background-color: #FFFFFF;
 }
-.team-menu{
+.team-item{
     background-color:#FFFFFF;
 }
 .team-subtitle{
