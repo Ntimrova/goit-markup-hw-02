@@ -57,7 +57,7 @@ letter-spacing: 0.02em;
 }
 
 .header-socials-link{
-color: var(--primary-black-color);
+color: var(--text-color);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -92,8 +92,8 @@ letter-spacing: 0.02em;
 }
 
 .element-button {
-color: var(--primary-white-color);
-background-color: var(--accent-color);
+color: #ffffff;
+background-color: #4D5AE5;
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
 font-weight: 500;
@@ -148,7 +148,9 @@ text-transform: capitalize;
     text-transform: capitalize;
     background-color: #FFFFFF;
 }
-
+.team-menu list{
+    color:#FFFFFF;
+}
 .team-subtitle{
 color: var(--primary-black-color);
 text-align: center;
