@@ -99,8 +99,8 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 }
-.element-button:focus,
-.element-button:hover{
+.element-buttton:focus,
+.element-buttton:hover{
     background-color: #404BBF;
 }
 /**------------ ADVANTAGES -------------- */
@@ -147,6 +147,9 @@ text-transform: capitalize;
     background-color: #FFFFFF;
 }
 .team-item{
+    background-color:#FFFFFF;
+}
+.team-menu{
     background-color:#FFFFFF;
 }
 .team-subtitle{
