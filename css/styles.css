@@ -18,7 +18,7 @@ body {
     list-style-type: none;
 }
 
-
+/*
 .visually-hidden {
    
     margin: -1px;
@@ -29,7 +29,7 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
+*/
 /**------------ HEADER-------------- */
 
 .header-logo {
@@ -89,9 +89,9 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 }
 
-.element-button {
-color: #ffffff;
-background-color: #4D5AE5;
+.element-buttton {
+color:var(--primary-white-color);
+background-color: var(--accent-color);
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
 font-weight: 500;
@@ -147,7 +147,7 @@ text-transform: capitalize;
     background-color: #FFFFFF;
 }
 .team-menu{
-    color:#FFFFFF;
+    background-color:#FFFFFF;
 }
 .team-subtitle{
 color: var(--primary-black-color);
