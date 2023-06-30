@@ -22,8 +22,7 @@ body {
 
 .visually-hidden {
    
-    margin: -1px;
-    border: 0;      
+    margin: -1px;     
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
